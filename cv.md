@@ -16,3 +16,19 @@ I have basic knowledge of several programming languages, but I want to delve dee
 * C# + XAML (WPF, basics)
 
 For a long time I worked with Visual Studio (for C#) and Sublime Text for web development. Now I am studying VS Code.
+## Code example
+```
+function maskify(cc) {
+  let fourSymbols = cc.slice(-4);
+  let substr = cc.slice(0, -4);
+  cc = "#".repeat(substr.length);
+  cc = cc.concat(fourSymbols);
+  return cc;
+}
+```
+## Experience
+No experience in commercial development.
+Web page layout assignments as part of self-study and various exercises in javascript and php.
+## Education
+Southern Federal University (speciality - Informatics and Computer Engineering)
+Self-learning from online open resources
