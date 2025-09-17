@@ -32,3 +32,5 @@ Web page layout assignments as part of self-study and various exercises in javas
 ## Education
 Southern Federal University (speciality - Informatics and Computer Engineering)
 Self-learning from online open resources
+## Languages
+English - A1/A2 (Beginner)
