@@ -1,21 +1,27 @@
 *{
     box-sizing: border-box;
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 1.5;
+    color: #7A7A7A;
 }
 body{
     min-height: 100%;
+    background-color: #E4CEC1;
 }
 .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 3% 10%;
+    background-color: white;
 }
 .left-side, .right-side{
-    height: 100%;
     justify-items: center;
-    width: 30%;
+}
+.left-side{
+    background-color: #F5F5F5;
+    width: 100%;
 }
 .left-side section, .right-side section{
     width: 100%;
@@ -24,13 +30,63 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 } 
+h1, h2{
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+}
+h1{
+    font-size: 36px;
+    color: #616161;
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.line{
+    width: 100%;
+    border-top: 2px solid #AEAEAE;
+    margin: 0 10%;
+}
+ hr{
+    color: red;
+ }
 .contact-info{
     display: flex;
     align-items: center;
+    width: 80%;
+    margin-top: 5%;
 }
 .contact-info img{
     width: 30px;
     margin-right: 5px;
 }
-
+section div{
+    padding-left: 60px;
+    margin: 3% 0;
+    width: 80%;
+}
+.circle-img{
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 5%;
+}
+li::marker{
+    content: "◈";
+    color: #E4CEC1;
+    
+}
+li{
+    padding-left: 20px;
+}
+code{
+    font-family: Consolas, Monaco, monospace; 
+    background-color: #F5F5F5; 
+    padding: 10px; 
+    border-radius: 3%; 
+    color: #cf743f; 
+    font-size: 0.9em; 
+}
